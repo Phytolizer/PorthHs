@@ -1,0 +1,7 @@
+resolver: lts-7.18
+
+packages:
+  - .
+
+extra-deps:
+  - logging-effect-1.1.0
