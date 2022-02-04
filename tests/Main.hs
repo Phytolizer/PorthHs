@@ -4,8 +4,8 @@ module Main
 
 import Protolude
 
-import Test.Tasty (defaultMain, TestTree, testGroup)
-import Test.Tasty.Hspec (describe, it, testSpec, shouldBe)
+import Test.Tasty (TestTree, defaultMain, testGroup)
+import Test.Tasty.Hspec (describe, it, shouldBe, testSpec)
 
 main :: IO ()
 main = do

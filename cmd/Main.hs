@@ -6,7 +6,14 @@ module Main
 import Protolude
 
 import Options.Applicative
-       (ParserInfo, execParser, fullDesc, header, helper, info, progDesc)
+  ( ParserInfo
+  , execParser
+  , fullDesc
+  , header
+  , helper
+  , info
+  , progDesc
+  )
 
 import Porth (Config(..), app)
 
